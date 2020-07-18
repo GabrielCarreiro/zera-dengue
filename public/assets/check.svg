@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="check.svg"
+   id="svg6"
+   version="1.1"
+   fill="none"
+   viewBox="0 0 64 64"
+   height="64"
+   width="64">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg6"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="32"
+     inkscape:cx="32"
+     inkscape:zoom="8.40625"
+     showgrid="false"
+     id="namedview8"
+     inkscape:window-height="706"
+     inkscape:window-width="1366"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     style="stroke:#7582ff;stroke-opacity:1"
+     id="path2"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="4"
+     stroke="#34CB79"
+     d="M58.6666 29.5466V32C58.6633 37.7504 56.8013 43.3458 53.3581 47.9515C49.915 52.5572 45.0753 55.9266 39.5609 57.557C34.0464 59.1875 28.1526 58.9917 22.7585 56.9989C17.3644 55.006 12.759 51.3229 9.62915 46.4988C6.4993 41.6747 5.0127 35.9682 5.39106 30.2302C5.76942 24.4922 7.99247 19.0302 11.7287 14.6588C15.4649 10.2875 20.514 7.241 26.1231 5.97371C31.7322 4.70641 37.6006 5.28622 42.8533 7.62665" />
+  <path
+     style="stroke:#7582ff;stroke-opacity:1"
+     id="path4"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="4"
+     stroke="#34CB79"
+     d="M58.6667 10.6667L32 37.36L24 29.36" />
+</svg>

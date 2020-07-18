@@ -1,0 +1,88 @@
+header{
+   position: absolute;
+   left: 1100px;
+   top: 30px;
+   
+}
+
+header a{
+   
+  display: flex;
+  color: white;
+  font-family: 'Exo';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+header a span{
+  margin-right: 12px;
+  display: flex;
+  background-image: url(../../public/assets/arrow-left.svg);
+  width: 20px;
+  height: 20px; 
+}
+
+form{
+    background-color: white;
+    position: absolute;
+    left: 470px;
+    top: 100px;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+form .field{
+    display: flex;
+    margin-bottom: 26px;
+}
+
+input, select{   
+    background-color: #dbdbdb;
+    width: 300px;
+    border: 0;
+    padding: 16px 16px;
+    font-size: 16px;
+    border-radius: 25px;
+    outline: none;
+    opacity: 0.8;
+  }
+
+  select{
+    width: 330px;
+  }
+
+  button[type=submit]{
+    background-color: #7582ff;
+    width: 270px;
+    height: 40px;
+    margin-left: 30px;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    border: 0;
+    transition: 600ms;
+  }
+
+  button:hover{
+    opacity: 0.6;
+  }
+
+  .success{
+    color: rgb(0, 221, 0);
+    font-size: 18px;
+    font-family: 'Exo';
+    left: 470px;
+    position: absolute; 
+  }
+
+  .err{
+    color: red;
+    font-size: 18px;
+    font-family: 'Exo';
+    left: 430px;
+    position: absolute; 
+  }
+
