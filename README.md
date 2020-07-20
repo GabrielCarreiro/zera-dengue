@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/FGh1Cap.png" width="480">
+
 ![](https://media.giphy.com/media/Uq49MQwwKDkXSjesDD/giphy.gif)
 
 <h1 align="center"> zera-dengue </h1>
@@ -19,7 +21,7 @@
  ## 💻 Instalação e execução
  
 **Passo 1 >**  *Você deve ter instalado no seu computador o*  **Git** <a href="https://git-scm.com/"> Clique aqui </a><br>
-**Passo 2 >**  *Existe diversas maneiras de roda este projeto, eu recomendo utilizar o **XAMPP** <a href="https://www.apachefriends.org/pt_br/index.html"> Clique aqui </a><br>
+**Passo 2 >**  *Existe diversas maneiras de roda este projeto, eu recomendo utilizar o* **XAMPP** <a href="https://www.apachefriends.org/pt_br/index.html"> Clique aqui </a><br>
 **Passo 3 >**  *Após a instalação das ferramentas você deve abrir o terminal do seu computador.* <br>
 **Passo 4 >**  *Altere o diretório do terminal para o local em que deseja salvar. (exemplo: cd desktop).*<br>
 **Passo 5 >**  *Faça um clone desse repositório rodando:* `git clone https://github.com/Gabrielcarreiro/zera-dengue`<br>
@@ -27,7 +29,7 @@
 **Passo 7 >**  *Execute o xampp e clique em start ao lado de 'Apache' e 'Mysql' e  aguarde fica verde.* </i><br>
 **Passo 8 >**  *Digite http://localhost/phpmyadmin/ no seu navegador para acessar o banco de dados*.<br>
 **Passo 9 >**  *Crie um banco chamado **'login'** e depois na aba sql rode o Dump disponível dentro dos arquivos do repositório* <br>
-**Passa 10>**  *Pronto !, agora é só acessar o link'http://localhost/zera-dengue/src/views/index.php' para entra na aplicação* <br>
+**Passa 10>**  *Pronto ! Agora é só acessar o link 'http://localhost/zera-dengue/src/views/index.php' para entra na aplicação* <br>
 
 ## 📋 Licença
 
