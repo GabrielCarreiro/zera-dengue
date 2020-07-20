@@ -1,5 +1,7 @@
-<img src="https://i.imgur.com/FGh1Cap.png" width="480">
-
+<img src="https://i.imgur.com/FGh1Cap.png" width="400">
+<img src="https://i.imgur.com/LYoeeFX.png" width="400">
+<img src="https://i.imgur.com/SzDwsHF.png" width="400">
+<img src="https://i.imgur.com/e552nEg.png" width="400">
 ![](https://media.giphy.com/media/Uq49MQwwKDkXSjesDD/giphy.gif)
 
 <h1 align="center"> zera-dengue </h1>
