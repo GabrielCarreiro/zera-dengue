@@ -43,7 +43,7 @@ session_start();
             <form action="../../src/cadastrar.php" method="POST">
                 <div class="field-group">
                     <div class="field">
-                        <input name="name" type="text" minlength="8" required placeholder="Nome" autofocus>
+                        <input name="name" type="text" minlength="8" required placeholder="Nome Completo" autofocus >
                     </div>
                 </div>
                 <div class="field-group">
@@ -53,37 +53,37 @@ session_start();
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <input name="password" id="password" minlength="8" required  type="password" placeholder="Senha" onkeyup="validandoSenha()">
+                        <input name="password" id="password" minlength="8" required type="password" placeholder="Senha" onkeyup="validandoSenha()">
                     </div>
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <input name="email" type="email"  required  placeholder="Email"> 
+                        <input name="email" type="email" required placeholder="Email"> 
                     </div>
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <input name="cpf" type="text" minlength="11"  maxlength="11" required  placeholder="CPF">
+                        <input name="cpf" id="cpf" type="number" required placeholder="CPF" disabled="disabled" onkeyup="testeCpf()">
                     </div>
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <input name="rg" type="text" minlength="9" minlength="9" required  placeholder="RG">
+                        <input name="rg" type="text" minlength="9" minlength="9"  placeholder="RG (Opcional)">
                     </div>
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <input name="address" type="text" minlength="10" placeholder="Endereço">
+                        <input name="address" type="text" minlength="10" required placeholder="Endereço">
                     </div>
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <input name="address2" type="text" placeholder="Bairro">
+                        <input name="address2" type="text" required placeholder="Bairro">
                     </div>
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <select name="uf" >
+                        <select name="uf" required >
                             <option value="">
                                 Selecione o estado
                             </option>
@@ -93,17 +93,17 @@ session_start();
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <select name="city">
+                        <select name="city" required>
                             <option value="">Selecione a cidade</option>
                         </select>
                     </div>
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <input name="phone" minlength="9" type="text" class="" placeholder="Telefone">
+                        <input name="phone" minlength="9" maxlength="12"  required type="text" placeholder="Telefone">
                     </div>
                 </div>
-                <button type="submit" class="">Cadastrar</button>
+                <button type="submit" id="envia" disabled="disabled">Cadastrar</button>
             </form>
         </div>  
     </div>  

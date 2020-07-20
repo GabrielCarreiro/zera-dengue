@@ -23,7 +23,7 @@ $sql = "select count(*) as total from usuario where usuario = '$usuario'";
 $result = mysqli_query($conexao, $sql);
 $row = mysqli_fetch_assoc($result);
 
-if($row['total'] == 1) {
+if($row['total'] >= 1) {
 	$_SESSION['usuario_existe'] = true;
 	header('Location: ../src/views/create-user.php');
 	exit;

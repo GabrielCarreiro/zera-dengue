@@ -49,6 +49,33 @@ function validandoSenha() {
         input.style.color = "#f00";
     } else {
         input.style.color = "#000";
+        document.getElementById("cpf").disabled = false;
     }
 
 }
+
+function testeCpf() {
+    var strCPF = document.getElementById("cpf").value;
+    var input = document.getElementById("cpf");
+    var Soma;
+    var Resto;
+    Soma = 0;
+    if (strCPF == "00000000000") return input.style.color = "#f00";
+
+    for (i = 1; i <= 9; i++) Soma = Soma + parseInt(strCPF.substring(i - 1, i)) * (11 - i);
+    Resto = (Soma * 10) % 11;
+
+    if ((Resto == 10) || (Resto == 11)) Resto = 0;
+    if (Resto != parseInt(strCPF.substring(9, 10))) return input.style.color = "#f00";
+
+    Soma = 0;
+    for (i = 1; i <= 10; i++) Soma = Soma + parseInt(strCPF.substring(i - 1, i)) * (12 - i);
+    Resto = (Soma * 10) % 11;
+
+    if ((Resto == 10) || (Resto == 11)) Resto = 0;
+    if (Resto != parseInt(strCPF.substring(10, 11))) return input.style.color = "#f00";
+    return  (input.style.color = "#000",document.getElementById("envia").disabled = false);
+             
+}
+
+

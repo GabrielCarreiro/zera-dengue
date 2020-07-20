@@ -24,29 +24,29 @@ include('../../src/verifica_login.php');
                 <div class="field-group">
                     <div class="field">
                         <h3> <span> Endereço da denúncia </span> </h3>
-                        <input name="ende" type="text" required class="input is-large" placeholder="Endereço da denúncia Ex: Rua Maria Souza - 158 " autofocus>
+                        <input name="ende" type="text" required  placeholder="Endereço da denúncia Ex: Rua Maria Souza - 158 " autofocus>
                     </div>
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <input type="text" name ="bairro" required class="" placeholder="Bairro">
+                        <input type="text" name ="bairro" required  placeholder="Bairro">
                     </div>
                     <div class="field">
-                        <input type="text" name = "cidade" required class="" placeholder="Cidade">
+                        <input type="text" name = "cidade" required  placeholder="Cidade">
                     </div>
                     <div class="field"> 
-                        <input type="text" name = "estado" required class="" placeholder="Estado">
+                        <input type="text" name = "estado" required  placeholder="Estado">
                     </div>
                 </div>
                 <div class="field-group">
                     <h3> <span> Descrição </span> </h3>
-                    <textarea name="descricao" required class="" id="descricao" rows="3" ></textarea>
+                    <textarea name="descricao" required id="descricao" rows="3" ></textarea>
                 </div>
                 <div class="field-group">
                     <h3><span> Imagem da denúncia </span> </h3> 
-                    <input type="file" required class="" name="userfile">
+                    <input type="file" required name="userfile">
                 </div>
-                <button type="submit" required class=""> Denúncia </button>
+                <button type="submit" required > Denúncia </button>
             </form>
         </div>
     </div>
