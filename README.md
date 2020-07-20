@@ -18,14 +18,16 @@
  
  ## 💻 Instalação e execução
  
-**Passo 1 >**  *Você deve ter instalado no seu computador o  **Git** <i><a href="https://git-scm.com/"> Clique aqui </a></i><br>
-**Passo 2 >**  *Outra ferramenta necessária que vamos utilizar é o  **XAMPP**. <i><a href="https://www.apachefriends.org/pt_br/index.html"> Clique aqui </a></i><br>
-<strong> Passo 3 > </strong> <i> Após a instalação das ferramentas você deve abrir o terminal do seu computador. </i><br>
-<strong> Passo 4 > </strong> <i> Altere o diretório de trabalho atual para o local em que deseja salvar. (exemplo: cd desktop).</i><br>
-<strong> Passo 5 > </strong> <i> Faça um clone desse repositório rodando: `git clone https://github.com/Gabrielcarreiro/PetHome`</i><br>
-<strong> Passo 6 > </strong> <i> Depois de clonar o repositório entre na pasta rodando pelo terminal: `cd PetHome`; </i><br>
-<strong> Passo 7 > </strong> <i> Digite `npm i` para instalar as dependências do projeto e aguarde. </i><br>
-<strong> Passo 8 > </strong> <i> Digite `npm start` para iniciar o servidor de desenvolvimento e aguardo a execução.</i><br>
+**Passo 1 >**  *Você deve ter instalado no seu computador o*  **Git** <a href="https://git-scm.com/"> Clique aqui </a><br>
+**Passo 2 >**  *Existe diversas maneiras de roda este projeto, eu recomendo utilizar o **XAMPP** <a href="https://www.apachefriends.org/pt_br/index.html"> Clique aqui </a><br>
+**Passo 3 >**  *Após a instalação das ferramentas você deve abrir o terminal do seu computador.* <br>
+**Passo 4 >**  *Altere o diretório do terminal para o local em que deseja salvar. (exemplo: cd desktop).*<br>
+**Passo 5 >**  *Faça um clone desse repositório rodando:* `git clone https://github.com/Gabrielcarreiro/zera-dengue`<br>
+**Passo 6 >**  *Depois de clonar o repositório recorte a pasta e cole dentro da pasta 'htdocs' que fica dentro da pasta do xampp* <br>
+**Passo 7 >**  *Execute o xampp e clique em start ao lado de 'Apache' e 'Mysql' e  aguarde fica verde.* </i><br>
+**Passo 8 >**  *Digite http://localhost/phpmyadmin/ no seu navegador para acessar o banco de dados*.<br>
+**Passo 9 >**  *Crie um banco chamado **'login'** e depois na aba sql rode o Dump disponível dentro dos arquivos do repositório* <br>
+**Passa 10>**  *Pronto !, agora é só acessar o link'http://localhost/zera-dengue/src/views/index.php' para entra na aplicação* <br>
 
 ## 📋 Licença
 
