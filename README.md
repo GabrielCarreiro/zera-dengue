@@ -11,15 +11,15 @@
  
 ## ✍ Descrição
 
- A aplicação PetHome ajuda a localizar os pet shops, e locais de adoção de pet da sua cidade. 
- Caso precise você também pode cadastrar um local no sistema, registrando todos os requisitos 
- solicitados em nossa página. O objetivo da aplicação é facilitar o usuário quando o mesmo precisar 
- encontra um petshop,de forma simples e rápida. 
-
+ Essa **aplicação web** foi desenvolvida para denunciar possíveis *focos de dengue*, de forma simples 
+ que qualquer usuário pode denunciar enviando uma descrição do local com uma foto e endereço do local.
+ Antes de realizar uma denúncia é imprescindível que o usuário faça um login e um cadastro antes de acessar
+ a pagina da denúncia. Com bastante praticidade um usuário pode realizar varias denuncia se assim desejar.
+ 
  ## 💻 Instalação e execução
  
-<strong> Passo 1 > </strong> <i> Você deve ter instalado no seu computador o <strong> Git  </strong>. <a href="https://git-scm.com/"> Clique aqui </a></i><br>
-<strong> Passo 2 > </strong> <i> Outra ferramenta necessária que vamos utilizar é o <strong> Node.Js </strong>. <a href="https://nodejs.org/en/"> Clique aqui </a></i><br>
+**Passo 1 >**  *Você deve ter instalado no seu computador o  **Git** <i><a href="https://git-scm.com/"> Clique aqui </a></i><br>
+**Passo 2 >**  *Outra ferramenta necessária que vamos utilizar é o  **XAMPP**. <i><a href="https://www.apachefriends.org/pt_br/index.html"> Clique aqui </a></i><br>
 <strong> Passo 3 > </strong> <i> Após a instalação das ferramentas você deve abrir o terminal do seu computador. </i><br>
 <strong> Passo 4 > </strong> <i> Altere o diretório de trabalho atual para o local em que deseja salvar. (exemplo: cd desktop).</i><br>
 <strong> Passo 5 > </strong> <i> Faça um clone desse repositório rodando: `git clone https://github.com/Gabrielcarreiro/PetHome`</i><br>
